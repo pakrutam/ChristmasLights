@@ -1,0 +1,181 @@
+body {
+  background: url('../img/LightOff.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #000000;
+  font-family: monospace;
+
+}
+#info{
+  background-color: rgba(0,0,0,1);
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info_text{
+  color:#FFFFFF;
+ font-size: 12px;
+ width: 70%;
+ margin-top: 100px;
+ text-align: center;
+ font-family: monospace;
+}
+#chr_name{
+  font-size: 24px;
+}
+#switch_order_form{
+position: relative;
+}
+#wall{
+  position: relative;
+  background: url('../img/wall.jpg');
+  width: 30%;
+  height: 100%;
+  float:right;
+}
+#switch {
+  position: relative;
+  top:10%;
+  text-align: center;
+}
+
+img.img_switch {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(8px 8px 8px #222);
+}
+
+#enterForm{
+  padding: 20px;
+  background-color: rgba(255,255,255,0.6);
+  position: relative;
+  width: 30%;
+  text-align:center;
+  float: right;
+  height: 100%;
+}
+
+#left-side-text{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   font-size: 80px;
+   line-height: 300px;
+   text-align: center;
+   background-color: rgba(0,0,0,1);
+
+}
+#Price{
+  color:#c3a343;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url("../img/Gold-Foil-Texture.jpg") repeat;
+  background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+}
+
+.gold-background{
+  background-color: hsl(70, 11%, 77%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfcfc", endColorstr="#c8cabd");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#fcfcfc), to(#c8cabd));
+  background-image: -moz-linear-gradient(top, #fcfcfc, #c8cabd);
+  background-image: -ms-linear-gradient(top, #fcfcfc, #c8cabd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #c8cabd));
+  background-image: -webkit-linear-gradient(top, #fcfcfc, #c8cabd);
+  background-image: -o-linear-gradient(top, #fcfcfc, #c8cabd);
+  background-image: linear-gradient(#fcfcfc, #c8cabd);
+  border-color: #c8cabd #c8cabd hsl(70, 11%, 71.5%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.36);
+  -webkit-font-smoothing: antialiased;
+}
+
+.newrecordplace{
+  width: 100%;
+  position: fixed;
+  top:0%;
+}
+.Newrecord{
+  padding: 20px;
+  background-color: rgba(255,255,255,0.9);
+  font-size: 15px;
+  text-align: center;
+}
+
+#contacts{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  font-family: monospace;
+  height: 70px;
+  line-height: 100px;
+  background: url('../img/floor.jpg') no-repeat;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+  color: #FFFFFF;
+}
+
+#Order_Screen{
+  background-color: rgba(255,255,255,0.9);
+}
+.pg{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.pg a {
+    color: black;
+    text-decoration: none;
+}
+
+.pg a:hover:not(.active){
+  background-color: #7D3C98;
+}
+
+.pg a.active {
+    background-color: #F1C40F;
+    color: white;
+}
+
+
+.tt-hint,
+      .Name {
+          border: 2px solid #CCCCCC;
+          border-radius: 8px 8px 8px 8px;
+          font-size: 12px;
+          height: 25px;
+          line-height: 12px;
+          padding: 5px 5px;
+          width: 200px;
+      }
+
+      .tt-dropdown-menu {
+          width: 200px;
+          margin-top: 5px;
+          padding: 5px 5px;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 8px 8px 8px 8px;
+          font-size: 12px;
+          color: #111;
+          background-color: #F1F1F1;
+      }
+
+  #Copyright{
+    text-align: center;
+vertical-align: middle;
+width: 50%;
+  margin: 0 auto;
+  }
